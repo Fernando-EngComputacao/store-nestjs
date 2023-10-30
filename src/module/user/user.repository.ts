@@ -1,5 +1,4 @@
 import { Injectable } from "@nestjs/common";
-import { log } from "console";
 
 @Injectable()
 export class UserRepository {
@@ -12,5 +11,10 @@ export class UserRepository {
 
     async findAll(){
         return (this.users);
+    }
+
+    async existUniqueEmail(email: string) {
+        const possibleUser = this.users.find(user => user.email === email);
+        return possibleUser !== undefined;
     }
 }
