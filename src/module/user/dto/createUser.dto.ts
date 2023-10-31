@@ -10,6 +10,6 @@ export class CreateUserDTO {
     @IsNotEmpty({message: 'The email cannot be blank'})
     email: string;
 
-    @MinLength(6, {message: 'The password must be at least 6 characters'})
+    @MinLength(6, {message: 'The password must be at least 6 characters'}) 
     password: string;
 }
