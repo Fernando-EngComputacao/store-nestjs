@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="140" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -22,17 +22,16 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## :pencil: Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Installation
+This [Nest](https://github.com/nestjs/nest)  project's functionality is a user CRUD for applying a REST API. In this project it is possible to create a user, search, update and delete.
 
-```bash
-$ npm install
-```
 
-## Running the app
+## :abacus: Running the app
+
+---
 
 ```bash
 # development
@@ -45,7 +44,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## :black_joker: Test
+
+---
 
 ```bash
 # unit tests
@@ -58,16 +59,8 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## :1st_place_medal: License
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+---
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+ - Certification: [NEST.JS: CREATING A RESTFUL API](https://cursos.alura.com.br/certificate/baec8603-26f4-4681-a1ac-5e70362bd425).
